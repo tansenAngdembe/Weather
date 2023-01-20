@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/d66d8ecec6.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <script src="main.js" defer></script>
+    <div class="card">
+        <div class="search">
+            <input type="text" id="search_bar" placeholder="Search for place">
+            <button><i class="fa-solid fa-magnifying-glass"></i></button>
+        </div>
+        <span class="message">Place not found.</span>
+        <div class="weather loading">
+            <h1 class="city">Weather of London</h1>
+            <div class="tem"></div>
+            <div class="desc">
+                <img alt="" class="images">
+                <div class="description">Cloudy</div>
+            </div>
+            
+            <div class="humidity">Humidity: </div>
+            <div class="wind">Wind-speed: </div>
+            <div class="geolocation"></div>
+            <div class="lati">43</div>
+            <div class="long">4545</div>
+        </div>
+
+    </div>
+</body>
+</html>
