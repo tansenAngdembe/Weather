@@ -1,5 +1,5 @@
 let weather={
-    apiKey:"82c302742e8f03bfb88278781cb7a9c6",
+    apiKey:"Your api key",
     fetchWeather:function(city){
     let location="https://api.openweathermap.org/data/2.5/weather?q="+
     city+
@@ -54,7 +54,5 @@ document.querySelector("#search_bar").addEventListener("keyup",(event)=>{
    }
    
 })
-setTimeout(()=>{
-  alert("Hello Ayush")
-},3000)
+
 weather.fetchWeather("phidim")
